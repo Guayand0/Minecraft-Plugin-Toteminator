@@ -1,0 +1,25 @@
+main: totem.Guayando.Toteminator
+name: Toteminator
+version: 1.0.2
+author: Guayando
+api-version: 1.13
+softdepend: [PlaceholderAPI] #, Vault]
+description: Un plugin que permite mantener los efectos de poción al usar un Totem
+
+commands:
+  toteminator:
+    description: Comando principal
+    usage: /toteminator <arg0>
+    aliases:
+      - totem
+
+permissions:
+  toteminator.admin:
+    default: op
+    description: Sirve para poder usar comandos de administrador
+  toteminator.updatechecker:
+    default: op
+    description: Sirve para comprobar si hay una nueva version del plugin
+  toteminator.use:
+    default: op
+    description: Sirve para no perder los efectos cuando se usa un toteml banco
